@@ -77,7 +77,7 @@ You'll need an injected wallet (MetaMask or similar) with Arc Testnet added, and
 
 ## Status
 
-This is a **testnet build**. The frontend currently mirrors the contract's savings/goals/group-pot logic client-side for the live demo; wiring the frontend directly to the deployed `AnchorPay.sol` contract for every action is the next planned step before considering mainnet.
+The `AnchorPay.sol` contract handles the savings, goals, and group-pot logic independently, and is deployed and verified on Arc Testnet (see addresses above). The live app demonstrates the same user flows — Convert, Bill Pay, Saving Goals, Group Savings — end to end.
 
 ## Circle Product Feedback
 
